@@ -1,4 +1,4 @@
-
+import styles from './app.module.css';
 import'./styles.global.css'
 import'./app.module.css'  
 import Header from './Components/Header'
@@ -14,7 +14,7 @@ function App() {
      <div>
        <Header/>
       
-       <div className=''>
+       <div className={styles.wrapper}>
 
          <Sidebar/>
          <main>
