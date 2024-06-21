@@ -13,7 +13,12 @@ export default function Sidebar() {
         <span>Cargo Pretendido</span>
 
       </div>
-        
+
+        <footer>
+          <a href="">Seu GitHub</a>
+        </footer> 
+
       </aside>
+      
   )
 }

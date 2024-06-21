@@ -20,8 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
+
 
 }
 
@@ -31,5 +30,40 @@
     height: 7rem;
     border-radius: 50%;
     object-fit: cover;
+
+}
+
+.profile strong{
+
+      margin-top: 5rem;
+      color: var(--gray-100);
+      line-height: 1.6;
+}
+
+.profile span{
+
+    color: var(--grenn-300);
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+}
+
+.sidebar footer a{
+    border: 1px solid var(--gray500);
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0 ));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
 
 }
