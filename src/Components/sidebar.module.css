@@ -69,6 +69,8 @@
 }
 
 footer a:hover{
+    
     background: rgb(226, 11, 11);
+    transition: 1s;
     
 }
