@@ -1,11 +1,12 @@
+import style from './post.module.css';
 
 export default function Post() {
   return (
-    <article>
+    <article className={style.post}>
 
       <header>
 
-        <div>
+        <div className={style.author}>
 
            <img src="https://cdn.pixabay.com/photo/2023/09/26/16/43/programmer-8277836_1280.jpg" alt="" />
            <div>
@@ -30,7 +31,7 @@ export default function Post() {
 
       <form action="">
 
-       <strong>Experiencia Profissional</strong>
+       <strong>Experiencia</strong>
 
       </form>
 
