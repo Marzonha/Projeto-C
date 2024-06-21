@@ -1,3 +1,4 @@
+import {Comments} from './Comments';
 import style from './post.module.css';
 
 export default function Post() {
@@ -35,6 +36,9 @@ export default function Post() {
        <strong>Experiencia</strong>
 
       </form>
+      <div>
+       <Comments/>
+      </div>
 
     </article>
       
