@@ -1,9 +1,9 @@
 import style from './comments.module.css'
 
 
-export default function Comments() {
+export function Comments() {
   return (
-    <div className={styleText.comments}>
+    <div className={style.comments}>
      <img src="" alt="" />
       <div>
         <div className={style.commentsContent}> 
