@@ -74,3 +74,19 @@ footer a:hover{
     transition: 1s;
     
 }
+
+.sidebar footer{
+   
+    margin-top: 5px;
+
+}
+
+.sidebar footer img{
+
+    width: 16rem;
+    height: 16rem;
+    object-fit:contain;
+    border-radius: 20px;
+    margin-top: 25px;
+    
+}
