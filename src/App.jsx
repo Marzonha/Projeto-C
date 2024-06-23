@@ -1,9 +1,13 @@
+// Importação do css
 import styles from './app.module.css';
 import'./styles.global.css'
 import'./app.module.css'  
+
+// Componentes 
 import Header from './Components/Header'
 import Post from './Components/Post'
 import Sidebar from './Components/Sidebar'
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -20,6 +24,8 @@ function App() {
          <main>
           <Post/>
          </main>
+
+         <Footer/>
 
        </div>
 
