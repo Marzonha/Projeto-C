@@ -8,7 +8,7 @@ import Sidebar from './Components/Sidebar'
 import Footer from './Components/Footer';
 
 
-function App() {
+export default function App() {
   return (
     <>
      <div>
