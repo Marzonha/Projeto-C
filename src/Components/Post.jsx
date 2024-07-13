@@ -1,4 +1,4 @@
-import {Comments} from './Comments';
+import { Comments } from './Comments';
 import style from './post.module.css';
 
 export default function Post() {
@@ -9,38 +9,41 @@ export default function Post() {
 
         <div className={style.author}>
 
-           <img src="https://cdn.pixabay.com/photo/2023/09/26/16/43/programmer-8277836_1280.jpg" alt="" />
-           <div className={style.authorInfo}>
+          <img src="https://cdn.pixabay.com/photo/2023/09/26/16/43/programmer-8277836_1280.jpg" alt="" />
+          <div className={style.authorInfo}>
 
-             <strong>Marlon Pacheco</strong>
-             <span>Programador junior / Front-end  </span>
+            <strong>Marlon Pacheco</strong>
+            <span>Programador junior / Front-end  </span>
 
-           </div>
+          </div>
 
         </div>
 
       </header>
 
       <div className={style.content}>
-        
-        <p>Sobre Você</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum exercitationem odit eaque veritatis, suscipit fugiat velit eum consequatur, aliquid tenetur consectetur quibusdam voluptas dolorum eos. Harum deleniti mollitia non?</p>
+
+        <p>Sobre Mim</p>
+        <p>Sou um estudante, atualmente no 2º ano do enino médio e fazendo curso preparatório no Senai, nascido em Muriaé e
+          além da área de programação que é algo que me agrada e tenho paixão por estar fazendo, também essa
+          paixão está presente na área de edição de videos que no começo era só um hobby
+        </p>
 
         <a href="https://github.com/Marzonha?tab=repositories">Link dos Repositórios</a>
         <a href="https://github.com/HectorG9/HBO-React.git">Ultimo Projeto</a>
-        
+
       </div>
 
       <form action="">
 
-       <strong >Experiências</strong>
+        <strong >Experiências</strong>
 
       </form>
       <div>
-       <Comments/>
+        <Comments />
       </div>
 
     </article>
-      
+
   )
 }

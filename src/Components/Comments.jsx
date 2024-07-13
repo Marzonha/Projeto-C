@@ -30,11 +30,13 @@ export function Comments() {
                 <strong> Edição de videos </strong>
               </div>
             </header>
-            <p>Sobre meus conhecimentos de edição, tenho mais familiaridade com a edição por meio de celulares,
+            <p>Sobre meus conhecimentos de edição por mais que não sejam adquiridos em cursos eu obtive minhas habilidades e a noção de como fazer os videos
+              através da internet, tenho mais familiaridade com a edição por meio de celulares,
               mesmo com a limitação do aparelho pude comprir com meus projetos pessoais de maneira satisfatória e
               atualmente estou trabalhando junto a um amigo músico na parte do marketing fazendo os videos para divulção
-              de uma música que irá sair ainda.
+              de uma música que irá sair ainda.                                    
             </p>
+            <p> OBS: Estou migrando para o computador, para edições mais profissionais.</p>
           </div>
         </div>
       </div>
