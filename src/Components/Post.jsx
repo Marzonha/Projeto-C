@@ -26,14 +26,14 @@ export default function Post() {
         <p>Sobre Você</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum exercitationem odit eaque veritatis, suscipit fugiat velit eum consequatur, aliquid tenetur consectetur quibusdam voluptas dolorum eos. Harum deleniti mollitia non?</p>
 
-        <a href="https://github.com/Marzonha?tab=repositories">Link Repositórios</a>
-        <a href="https://github.com/Marzonha/Projeto-react-01.git">Ultimo Projeto</a>
+        <a href="https://github.com/Marzonha?tab=repositories">Link dos Repositórios</a>
+        <a href="https://github.com/HectorG9/HBO-React.git">Ultimo Projeto</a>
         
       </div>
 
       <form action="">
 
-       <strong>Experiencia</strong>
+       <strong >Experiências</strong>
 
       </form>
       <div>
