@@ -4,33 +4,41 @@ import style from './comments.module.css'
 export function Comments() {
   return (
     <>
-    <div className={style.comments}>
-     <img src="data:image/png;base64,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" alt="" />
-      <div>
-        <div className={style.commentsContent}> 
+      <div className={style.comments}>
+        <img src="https://senai2022.net.br/wp-content/uploads/2021/01/senai-inscricoes-2022.jpg" alt="" />
+        <div>
+          <div className={style.commentsContent}>
             <header>
-               <div >
-                 <strong>Curso Preparatório Front-end  </strong>
-               </div>
+              <div >
+                <strong>Senai Curso Preparatório de Front-end  </strong>
+              </div>
             </header>
-            <p>Possuo conhecimentos na área de programação front-end (parte estética/aparência do site), dentro desse conhecimento possuo experiência em html, CSS, JavaScript e React, junto com os outros alunos do Senai estamos fazendo o site de vendas para o iracambi, ong que busca o restauramento e o reflorestamento da mata atlântica.</p>
+            <p>Possuo conhecimentos na área de programação front-end (parte estética/aparência do site),
+              dentro desse conhecimento possuo experiência em html, CSS, JavaScript e React.
+              Junto com os outros alunos do Senai estamos fazendo um site para o iracambi,
+              ong que busca o restauramento e o reflorestamento da mata atlântica.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div className={style.comments}>
-    <img src="data:image/png;base64,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" alt="" />
-     <div>
-       <div className={style.commentsContent}> 
-           <header>
+      <div className={style.comments}>
+        <img src="https://images.ctfassets.net/63bmaubptoky/HTB_RPXFxWaTm_1Q7WEwy0ilSrtNl0zZY5oNmDf8OVs/b4ba7fc87baa62ca5b066b0c31c4b96b/melhores-editores-video-gratuitos-BR-Capterra-Header.png" alt="" />
+        <div>
+          <div className={style.commentsContent}>
+            <header>
               <div >
-                <strong> Conhecimentos em Edição de videos </strong>
+                <strong> Edição de videos </strong>
               </div>
-           </header>
-           <p>Sobre meus conhecimentos de edição, tenho mais familiaridade com a edição em celulares já que eu não possuia um computador antes, mesmo não tendo tal recurso eu adquiri o entendimento de como fazer os videos  < /p>
-       </div>
-     </div>
-   </div>
-   
-   </>
+            </header>
+            <p>Sobre meus conhecimentos de edição, tenho mais familiaridade com a edição por meio de celulares,
+              mesmo com a limitação do aparelho pude comprir com meus projetos pessoais de maneira satisfatória e
+              atualmente estou trabalhando junto a um amigo músico na parte do marketing fazendo os videos para divulção
+              de uma música que irá sair ainda.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </>
   )
 }
