@@ -60,7 +60,7 @@
 
 .content a{
     display: block;
-    width: auto;
+    width: 195px;
     color: var(--grenn-500);
     text-decoration: none !important;
     transition: 0.5s;
