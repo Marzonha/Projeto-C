@@ -27,6 +27,7 @@
     height: 7rem;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 30px;
 
 }
 
@@ -84,6 +85,6 @@ footer a:hover{
     height: 16rem;
     object-fit:contain;
     border-radius: 20px;
-    margin-top: 25px;
+    margin-top: 50px;
     
 }
