@@ -26,7 +26,7 @@ export default function Post() {
         <p>Sobre Mim</p>
         <p>Sou um estudante, atualmente no 2º ano do enino médio e fazendo curso preparatório no Senai, nascido em Muriaé e
           além da área de programação que é algo que me agrada e tenho paixão por estar fazendo, também essa
-          paixão está presente na área de edição de videos que no começo era só um hobby
+          paixão está presente na área de edição de videos que no começo era só um hobby.
         </p>
 
         <a href="https://github.com/Marzonha?tab=repositories">Link dos Repositórios</a>
