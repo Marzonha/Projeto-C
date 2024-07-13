@@ -12,7 +12,7 @@ export default function Post() {
           <img src="https://cdn.pixabay.com/photo/2023/09/26/16/43/programmer-8277836_1280.jpg" alt="" />
           <div className={style.authorInfo}>
 
-            <strong>Marlon Pacheco</strong>
+            <strong>Marlon Pacheco de Oliveira</strong>
             <span>Programador junior / Front-end  </span>
 
           </div>
@@ -24,7 +24,7 @@ export default function Post() {
       <div className={style.content}>
 
         <p>Sobre Mim</p>
-        <p>Sou um estudante, atualmente no 2º ano do enino médio e fazendo curso preparatório no Senai, nascido em Muriaé e
+        <p>Sou um estudante, atualmente no 2º ano do enino médio e fazendo curso preparatório no Senai, nascido em Muriaé-Mg,
           além da área de programação que é algo que me agrada e tenho paixão por estar fazendo, também essa
           paixão está presente na área de edição de videos que no começo era só um hobby.
         </p>
