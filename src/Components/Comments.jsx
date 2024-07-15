@@ -18,6 +18,8 @@ export function Comments() {
               Junto com os outros alunos do Senai estamos fazendo um site para o iracambi,
               ong que busca o restauramento e o reflorestamento da mata atlântica.
             </p>
+
+            <p>OBS: Ainda não finalizei o curso.</p>
           </div>
         </div>
       </div>
